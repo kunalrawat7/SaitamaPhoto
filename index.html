@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saitama</title>
+</head>
+<body>
+    <main>
+        <h1>SaitamaPhotoApp</h1>
+
+        <section>
+            <h2>Saitama Photos</h2>
+            <p>See more <a href="https://onepunchman.fandom.com/wiki/Saitama/Image_Gallery" target="_blank">Saitama Photos</a> in our gallery.</p>
+            <img src="saitama.jpg" alt="Saitama" height="250" width="300">
+        </section>
+        
+        <section>
+            <h2>Saitama Lists</h2>
+            <h3>Things Saitama loves</h3>
+            <ul>
+                <li>Cooking</li>
+                <li>Shopping</li>
+                <li>Video Games</li>
+            </ul>
+            <figure>
+                <img src="saitamavideogames.jpg" alt="Saitama playing video games" height="250" width="300">
+                <figcaption>Saitama <em>loves</em> playing video games.</figcaption>
+            </figure>
+            <h3>Things Saitama Hates</h3>
+            <ul>
+                <li>Mosquitoes</li>
+                <li>Monster</li>
+                <li>Hero Ranking Criteria</li>
+            </ul>
+            <figure>
+                <img src="saitamamosquito.jpg" alt="Saitama trying to kill mosquito." height="250" width="300">
+                <figcaption>Saitama <strong>hate</strong> mosquitoes.</figcaption>
+            </figure>
+        </section>
+
+        <section>
+            <h2>Saitama Form</h2>
+            <form action="">
+                <fieldset>
+                    <legend>Is saitama a hero or villain?</legend>
+                    <label><input type="radio" name="hero-villain" id="hero" value="hero">Hero</label>
+                    <label><input type="radio" name="hero-villain" id="villain" value="villain">Villain</label>
+                </fieldset>
+                <fieldset>
+                    <legend>What's saitama personality?</legend>
+                    <label><input type="checkbox" name="personality" id="smart" value="smart">Smart</label>
+                    <label><input type="checkbox" name="personality" id="dumb" value="dumb">Dumb</label>
+                    <label><input type="checkbox" name="personality" id="funny" value="funny">Funny</label>
+                </fieldset>
+                <input type="text" name="saitamaphotourl" id="photourl"  required placeholder="Saitama photo url">
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>No Copyright - <a href="https://onepunchman.fandom.com/wiki/Saitama" target="_blank">Saitama.org</a></p>
+    </footer>
+</body>
+</html>
